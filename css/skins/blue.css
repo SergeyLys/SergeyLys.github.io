@@ -1,0 +1,86 @@
+body {
+  color: #222;
+  letter-spacing: 1px; }
+
+a {
+  color: #060270; }
+
+p,
+body .main-footer,
+.sec-about li {
+  color: #888; }
+
+section h3 {
+  letter-spacing: 3px; }
+
+.info h2 {
+  letter-spacing: 2px; }
+
+.sec-resume h3 {
+  color: #222;
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-weight: 400; }
+
+.color_element {
+  color: #060270; }
+
+.color_bg {
+  background-color: #060270; }
+
+.color_border {
+  border-color: #060270; }
+
+.bg-light {
+  background-color: #FAFAFA; }
+
+.s-descr {
+  letter-spacing: 5px; }
+  .s-descr::after {
+    background-color: #222; }
+
+.bg-dark {
+  background-color: #222;
+  color: #fff; }
+  .bg-dark .s-descr::after {
+    background-color: #FFF; }
+  .bg-dark a {
+    color: #fff; }
+
+path {
+  fill: #222; }
+
+.top-mnu a:hover {
+  color: #060270;
+  background-color: rgba(255, 255, 255, 0.1); }
+.top-mnu a {
+  letter-spacing: 4px;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease; }
+
+.top-text p {
+  color: #FAFAFA;
+  letter-spacing: 5px; }
+
+.year {
+  background-color: #060270; }
+
+.resume-descr {
+  letter-spacing: 1px; }
+
+.sec-portfolio li {
+  letter-spacing: 2px;
+  color: #888; }
+  .sec-portfolio li.active {
+    color: #fff;
+    border-bottom: 1px solid #060270; }
+
+.fa {
+  color: #060270; }
+
+.main-form label input:focus,
+.main-form label textarea:focus {
+  border: 1px solid #060270; }
+
+/*# sourceMappingURL=blue.css.map */

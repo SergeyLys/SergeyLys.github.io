@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>&#60;HTML/&#62; Markup</title>
+	<meta name="description" content="">
+	<meta http-equiv="" content="text/html; charset=utf-8">
+	<link rel="shortcut icon" href="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../libs/bootstrap.min.css">
+	<link rel="stylesheet" href="../libs/font-awesome-4.2.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/media.css">
+</head>
+<body>
+<div class="container-fluid"><!-- WRAPPER -->
+
+	<header class="row">
+		<div class="col-md-3 head-left"></div>
+		<div class="col-md-6 col-md-offset-3 head-center">
+			<h3>Contacts:</h3>
+		<ul class="cont-top1 col-md-6 col-xs-6">
+			<li><p class="mob-top"><i class="fa fa-mobile"></i>&#160;&#160;&#160;&#160;+380 (63) 973-23-16</p></li>
+			<li><p class="sk-top"><i class="fa fa-skype"></i>&#160;&#160;&#160;nutryda_</p></li>
+		</ul>
+		<ul class="cont-top2 col-md-6 col-xs-6">
+			<li><p class="mar-top"><i class="fa fa-map-marker"></i>&#160;&#160;&#160;&#160;Харьков, м. Холодная гора</p></li>
+			<li><p class="mail-top"><i class="fa fa-envelope"></i>&#160;&#160;anynamee3@gmail.com</p></li>
+		</ul>
+		</div>
+		<div class="col-md-3 col-md-offset-9 head-right"></div>
+	</header>
+
+	<div class="row"><!-- MAIN -->
+
+		<div class="col-xs-12 col-md-3 left-side"><!-- LEFT SIDE -->
+			<h1>&#60;/&#62; <span>Markup</span></h1>
+
+			<ul class="menu-right"><!-- MENU FOR SMALL DEVICES -->
+				<li><a href="../index.html">Back</a></li>
+			</ul><!-- END OF MENU FOR SMALL DEVICES -->
+
+		</div><!-- END OF LEFT SIDE -->
+
+		<div class="col-xs-12 col-md-6 col-md-offset-3 center"><!-- CENTER -->
+			
+			<p class="code">
+				<textarea name="code" id="code" cols="30" rows="10">
+					body{
+	width: 800px;
+	margin: 0 auto;
+	font-family: Tahoma, Arial, sans-serif;
+}
+
+									/*header*/
+
+header{
+	margin: 0 auto;
+	background-image: url(../img/bg_top.png);
+	height: 590px;
+	width: 100%;
+}
+h3{
+	font-size: 18pt;
+	color: #40474e;
+	font-weight: bold;
+}
+p{
+	color: #787b80;
+}
+.even{
+	background-color: #eeeeef;
+}
+.odd{
+	background-color: #f5f5f5;
+}
+.remo{
+	background-color: #50c3af;
+	border-radius: 10px;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+	-webkit-transition: all ease .1s;
+	-o-transition: all ease .1s;
+	transition: all ease .1s;
+}
+.remo:hover{
+	background-color: #88e6d6;
+	-webkit-transition: all ease .1s;
+	-o-transition: all ease .1s;
+	transition: all ease .1s;
+}
+.logo{
+	margin-left: 44%;
+	max-width: 100%;
+	padding-top: 65px;
+}
+.nav{
+	margin-left: 25%;
+	padding-top: 50px;
+	width: 100%;
+}
+.nav li{
+	list-style: none;
+	display: inline-block;
+	padding: 20px;
+}
+.nav li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 12pt;
+}
+.nav li a:hover{
+	color: #50c3af;
+}
+h1{
+	font-size: 50pt;
+	color: #fff;
+	text-align: center;
+	margin-top: 75px;
+}
+h2{
+	font-size: 15pt;
+	padding: 40px 0 60px 0;
+	color: #fff;
+	text-align: center;
+}
+.a_top{
+	font-size: 15pt;
+	color: #fff;
+	background-color: #50c3af;
+	padding: 20px;
+	border-radius: 8px;
+	text-decoration: none;
+	margin: 50px 0px -50px 280px;
+	-webkit-transition: all ease .1s;
+	-o-transition: all ease .1s;
+	transition: all ease .1s;
+}
+.a_top:hover{
+	background-color: #88e6d6;
+	-webkit-transition: all ease .1s;
+	-o-transition: all ease .1s;
+	transition: all ease .1s;
+}
+									
+									/*section1*/
+
+#section1{
+	padding: 75px 0px 100px 100px;
+}
+#section1 h3{
+	padding-bottom: 20px;
+	border-bottom: 2px solid;
+	width: 250px;
+	border-color: #50c3af;
+}
+#section1 p{
+	line-height: 1.5;
+	margin-top: 20px;
+	padding-bottom: 50px;
+}
+
+
+									/*section2*/
+
+#section2{
+	width: 100%;
+	height: 550px;
+}								
+.post{
+	display: inline-block;
+	width: 270px;
+	margin-left: 60px;
+}
+#section2 a{
+	position: absolute;
+	margin-top: 30px;
+}
+#section2 h3{
+	margin: 20px 0px 20px 0px;
+	border-bottom: 2px solid #50c3af;
+	font-size: 15pt;
+	padding-bottom: 20px;
+}
+									/*section3*/
+
+#section3{
+	padding: 75px 75px 100px 100px;
+}
+#section3 h3{
+	padding-bottom: 20px;
+	border-bottom: solid 2px #50c3af;
+}
+#section3 p{
+	margin-top: 20px;
+	line-height: 1.5;
+}
+#section3 a{
+	position: absolute;
+	margin-top: 30px;
+}
+									/*section4*/
+
+#section4{
+	width: 100%;
+	height: 500px;
+}
+.s4{
+	display: inline-block;
+	width: 200px;
+}
+.p1{
+	margin: 75px 0px 0px 100px;
+}
+#section4 h4{
+	padding: 30px 0px 20px 0px;
+	border-bottom: solid 2px #50c3af;
+	font-size: 12pt;
+	font-weight: 700;
+}
+#section4 p{
+	margin-top: 20px;
+	line-height: 1.5;
+	width: 190px;
+}
+#section4 a{
+	margin-top: 30px;
+	position: absolute;
+}
+									
+									/*section5*/
+
+#section5{
+	width: 100%;
+	height: 400px;
+}
+.s5{
+	width: 300px;
+	display: inline-block;
+}									
+.p2{
+	margin-left: 50px;
+}
+#section5 h3{
+	padding: 30px 0px 20px 0px;
+	border-bottom: solid 2px #50c3af;
+	font-size: 14pt;
+	font-weight: 900;
+}
+#section5 p{
+	line-height: 1.5;
+	margin-top: 20px;
+}
+#section5 a{
+	margin-top: 30px;
+	position: absolute;
+}
+
+									/*section6*/
+
+#section6{
+	width: 100%;
+	height: 400px;
+}
+.s6{
+	display: inline-block;
+	width: 290px;
+}
+.pp2{
+	margin: 40px 0px 0px 40px;
+	vertical-align: top;
+}
+#section6 h3{
+	padding: 30px 0px 20px 0px;
+	border-bottom: solid 2px #50c3af;
+	font-size: 14pt;
+	font-weight: 900;
+}
+#section6 p{
+	line-height: 1.5;
+	margin-top: 20px;
+}
+#section6 a{
+	margin-top: 30px;
+	position: absolute;
+}
+									
+									/*bottom*/
+
+#bottom{
+	background-color: #50c3af;
+	width: 100%;
+	height: 220px;
+}
+#bottom p{
+	text-align: center;
+	padding-top: 55px;
+	color: #fff;
+	font-weight: 600;
+}
+.bot{
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 70px;
+}
+.bot li{
+	display: inline;
+	list-style: none;
+	padding: 20px;
+}
+.bot li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 18pt;
+	opacity: .7;
+	-webkit-transition: all ease .5s;
+	-o-transition: all ease .5s;
+	transition: all ease .5s;
+}
+.bot li a:hover{
+	opacity: 1;
+	-webkit-transition: all ease .5s;
+	-o-transition: all ease .5s;
+	transition: all ease .5s;
+}
+footer{
+	width: 100%;
+	height: 55px;
+}
+.elena{
+	font-weight: bolder;
+}
+footer p{
+	padding: 20px 0px 0px 100px;
+}
+				</textarea>
+			</p>
+
+		</div><!-- END OF CENTER -->
+
+		<div class="col-xs-12 col-md-3 right-side"><!-- RIGHT SIDE -->
+			<ul class="menu2">
+				<li><a href="../index.html">Back</a></li>
+			</ul>
+		</div><!-- END OF RIGHT SIDE -->
+
+		<footer class="col-md-12">
+			<p>Copyright&#160;&#169;&#160;2015</p>
+		</footer>
+
+	</div><!-- END OF MAIN -->
+
+</div><!-- END OF WRAPPER -->
+
+	<script src="../libs/jquery-2.1.1.min.js"></script>
+	<script src="../js/common.js"></script>
+	<!--[if lt IE 9]>
+	<script src="../libs/html5shiv/es5-shim.min.js"></script>
+	<script src="../libs/html5shiv/html5shiv.min.js"></script>
+	<script src="../libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="../libs/respond/respond.min.js"></script>
+	<![endif]-->
+
+</body>
+</html>

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>&#60;HTML/&#62; Markup</title>
+	<meta name="description" content="">
+	<meta http-equiv="" content="text/html; charset=utf-8">
+	<link rel="shortcut icon" href="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../libs/bootstrap.min.css">
+	<link rel="stylesheet" href="../libs/font-awesome-4.2.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/media.css">
+</head>
+<body>
+<div class="container-fluid"><!-- WRAPPER -->
+
+	<header class="row">
+		<div class="col-md-3 head-left"></div>
+		<div class="col-md-6 col-md-offset-3 head-center">
+			<h3>Contacts:</h3>
+		<ul class="cont-top1 col-md-6 col-xs-6">
+			<li><p class="mob-top"><i class="fa fa-mobile"></i>&#160;&#160;&#160;&#160;+380 (63) 973-23-16</p></li>
+			<li><p class="sk-top"><i class="fa fa-skype"></i>&#160;&#160;&#160;nutryda_</p></li>
+		</ul>
+		<ul class="cont-top2 col-md-6 col-xs-6">
+			<li><p class="mar-top"><i class="fa fa-map-marker"></i>&#160;&#160;&#160;&#160;Харьков, м. Холодная гора</p></li>
+			<li><p class="mail-top"><i class="fa fa-envelope"></i>&#160;&#160;anynamee3@gmail.com</p></li>
+		</ul>
+		</div>
+		<div class="col-md-3 col-md-offset-9 head-right"></div>
+	</header>
+
+	<div class="row"><!-- MAIN -->
+
+		<div class="col-xs-12 col-md-3 left-side"><!-- LEFT SIDE -->
+			<h1>&#60;/&#62; <span>Markup</span></h1>
+
+			<ul class="menu-right"><!-- MENU FOR SMALL DEVICES -->
+				<li><a href="../index.html">Back</a></li>
+			</ul><!-- END OF MENU FOR SMALL DEVICES -->
+
+		</div><!-- END OF LEFT SIDE -->
+
+		<div class="col-xs-12 col-md-6 col-md-offset-3 center"><!-- CENTER -->
+			
+			<p class="code">
+				<textarea name="code" id="code" cols="30" rows="10">
+body{
+	font-family: Helvetica, Arial, sans-serif; 
+}
+*{
+	text-decoration: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.wrapp{
+	background-color: #fff;
+	margin: 0 auto;
+}
+.cont-size {
+	width: 100%;
+	margin: 0 auto;
+}
+.reviews {
+	width: 100%;
+	color: #fff;
+}
+.gallery3 {
+	width: 1600px;
+	height: 960px;
+	overflow: hidden;
+	margin: 0 auto;
+	position: relative;
+}
+.list {
+	width: 99999px;
+}
+.list li {
+	width: 1600px;
+	float: left;
+}
+.list li img {
+	float: left;
+}
+.switch-box {
+	width: 500px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: absolute;
+	bottom: 260px;
+	left: 46%;
+}
+.prev, .next{
+	display: block;
+	width: 18px;
+	height: 36px;
+	text-indent: -9999px;
+	background: url(../img/switcher-arrow.png) no-repeat;
+	bottom: 20px;
+	position: absolute;
+	top: 5px;
+}
+.next {
+	background-position: -18px 0;
+	right: 100px;
+}
+.prev {
+	left: 100px;
+}
+.switcher li {
+	float: left;
+	margin: 0 20px;
+}
+.switcher li a {
+	display: block;
+	height: 20px;
+	width: 20px;
+	border: solid 3px #000;
+	border-radius: 50%;
+	background-color: #fff;
+	text-indent: -9999px;
+}
+.switcher li.active a {
+	background: #1a793d;
+}
+.post{
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	bottom: 10px;
+	left: 18%;
+}
+.post li{
+	display: inline-block;
+	margin: 0 30px;
+	position: relative;
+}
+.post li a p{
+	font-size: 25px;
+	text-decoration: none;
+	color: #fff;
+	background-color: #cd96c9;
+	text-align: center;
+	padding: 5px 0px 5px 0px;
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+.post li a p:hover{
+	background-color: #90498a;
+}
+.top{
+	position: absolute;
+	top: 0;
+	background-color: #000;
+	opacity: 0.5;
+	width: 100%;
+	height: 140px;
+}
+.bottom{
+	position: absolute;
+	bottom: 0;
+	background-color: #000;
+	opacity: 0.5;
+	width: 100%;
+	height: 275px;
+}
+.nav{
+	position: absolute;
+	top: 70px;
+	background-color: #000;
+	opacity: 0.6;
+	width: 100%;
+	height: 70px;
+	padding-right: 120px;
+}
+.nav li{
+	float: right;
+	list-style: none;
+	margin: 25px 70px 0px 100px;
+}
+.nav li a{
+	text-decoration: none;
+	color: #b2aba9;
+}
+.nav li a:hover{
+	color: #fff;
+}
+.logo{
+	padding: 10px 0px 0px 280px;
+}
+				</textarea>
+			</p>
+
+		</div><!-- END OF CENTER -->
+
+		<div class="col-xs-12 col-md-3 right-side"><!-- RIGHT SIDE -->
+			<ul class="menu2">
+				<li><a href="../index.html">Back</a></li>
+			</ul>
+		</div><!-- END OF RIGHT SIDE -->
+
+		<footer class="col-md-12">
+			<p>Copyright&#160;&#169;&#160;2015</p>
+		</footer>
+
+	</div><!-- END OF MAIN -->
+
+</div><!-- END OF WRAPPER -->
+
+	<script src="../libs/jquery-2.1.1.min.js"></script>
+	<script src="../js/common.js"></script>
+	<!--[if lt IE 9]>
+	<script src="../libs/html5shiv/es5-shim.min.js"></script>
+	<script src="../libs/html5shiv/html5shiv.min.js"></script>
+	<script src="../libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="../libs/respond/respond.min.js"></script>
+	<![endif]-->
+
+</body>
+</html>

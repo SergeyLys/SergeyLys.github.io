@@ -1,0 +1,349 @@
+body {
+	font-family: "RobotoRegular", Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+h1 {
+	font-size: 44px;
+	padding: 0;
+	margin: 0;
+}
+
+h2 {
+	font-size: 34px;
+	font-weight: lighter;
+	padding: 0;
+	margin: 0;
+}
+
+h3 {
+	font-size: 16px;
+	color: #888;
+	font-weight: lighter;
+	padding: 0;
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+.head {
+	text-align: center;
+}
+
+/*==================================================
+============   HEADER   ===========================*/
+
+header {
+	width: 100%;
+	background-color: #fff;
+
+	nav {
+		text-align: center;
+	}
+
+	li {
+		display: inline;
+		margin: 20px;
+
+		a {
+			font-family: "RobotoRegular";
+			color: #000;
+			font-size: 13px;
+		}
+
+		a:hover {
+			color: #777;
+		}
+
+		a.logo {
+			font-size: 30px;
+			background-color: #000;
+			color: #fff;
+			padding: 7px;
+			border: 2px solid #000;
+		}
+
+		a.logo:hover {
+			background-color: #fff;
+			color: #000;
+		}
+	}
+
+	.banner {
+		text-align: center;
+		margin-top: 295px;
+
+		h3 {
+			width: 371px;
+		}
+
+		.top-button {
+			background-color: #fff;
+			padding: 18px 21px;
+			text-transform: uppercase;
+			border: 1px solid #000;
+			font-size: 12px;
+			margin-top: 15px;
+		}
+
+		.top-button:hover {
+			background-color: #000;
+			color: #fff;
+		}
+	}
+
+	.circle {
+		margin: 281px 0px 86px 0;
+		text-align: center;
+
+		ul {
+			margin: 0px;
+
+			li {
+				display: block;
+				color: #d0d0d0;
+				margin: 0;
+			}
+
+			li:nth-child(1) {
+				opacity: .33;
+			}
+
+			li:nth-child(2) {
+				opacity: .66;
+			}
+
+			li:nth-child(3) {
+				opacity: 1;
+			}
+		}
+	}
+}
+
+/*==================================================
+============   SECTION 1   ========================*/
+
+.about {
+	background-image: url(../images/bg-about.png);
+	background-position: center;
+	height: 1341px;
+
+	h2 {
+		font-size: 48px;
+		color: #fff;
+	}
+
+	p {
+		color: #b7b7b7;
+	}
+	
+	.aug {
+		margin-top: 140px;
+	}
+
+	.feb {
+		margin-top: 185px;
+	}
+
+	.aug, .feb {
+		text-align: right;
+
+		h2 {
+			margin-right: -42px;
+		}
+
+		p {
+			text-align: left;
+			font-size: 15px;
+			line-height: 22px;
+		}
+	}
+
+	.oct {
+		margin-top: 258px;
+	}
+
+	.mar {
+		margin-top: 348px;
+	}
+
+	.oct, .mar {
+		text-align: left;
+
+		h2 {
+			margin-left: -39px;
+		}
+
+		p {
+			text-align: right;
+			font-size: 15px;
+			line-height: 22px;
+		}
+	}
+}
+
+/*==================================================
+============   SECTION 2   ========================*/
+
+.command {
+	background-color: #fff;
+
+	.head {
+		margin-top: 71px;
+	}
+	
+	.dev, .des, .mark {
+		text-align: center;
+
+		h4 {
+			font-size: 24px;
+			padding-top: 18px;
+			margin: 0;
+		}
+
+		p {
+			font-size: 13px;
+			padding-bottom: 10px;
+			margin: 0;
+			color: #cecece;
+		}
+
+		li {
+			display: inline;
+			margin: 10px;
+
+			a {
+				color: #e4e4e4;
+				font-size: 20px;
+			}
+
+			a:hover {
+				color: #000;
+			}
+		}
+	}
+
+
+	.des {
+		margin-top: 122px;
+	}
+
+	.dev, .mark {
+		margin-top: 214px;
+	}
+}
+
+/*==================================================
+============   SECTION 3   ========================*/
+
+.work {
+	background-image: url(../images/bg-work.png);
+	background-position: center;
+	height: 1665px;
+	margin-top: 93px;
+
+	.head {
+		margin-top: 232px;
+		padding-bottom: 216px;
+
+		h2 {
+			color: #fff;
+		}
+	}
+
+	.chart, .heart, .real {
+		text-align: center;
+
+		h4 {
+			font-size: 24px;
+			padding-top: 36px;
+			margin: 0;
+			color: #fff;
+		}
+
+		p {
+			font-size: 18px;
+		}
+	}
+
+	.button {
+		text-align: center;
+		margin-top: 383px;
+
+		.button-bot {
+			background-color: #fff;
+			padding: 21px 41px;
+			border: 1px solid #000;
+		}
+
+		.button-bot:hover {
+			background-color: #777;
+		}
+	}
+}
+
+/*==================================================
+============   SECTION 4   ========================*/
+
+.contact {
+	background-color: #fff;
+
+	.head {
+		margin-top: 83px;
+	}
+
+	.call, .target, .envelop {
+		text-align: center;
+		margin-top: 58px;
+
+		.fa-phone, .fa-map-marker, .fa-envelope {
+			font-size: 21px;
+		}
+
+		p {
+			font-size: 10px;
+		}
+	}
+
+	form {
+		margin-top: 111px;
+
+		input {
+			text-align: center;
+			padding: 14px;
+			width: 100%;
+			margin-bottom: 20px;
+		}
+
+		textarea {
+			width: 100%;
+			text-align: center;
+			margin-bottom: 14px;
+			padding: 12px;
+		}
+
+		input.sub-button {
+			background-color: #000;
+			color: #fff;
+		}
+	}
+}
+
+/*==================================================
+============   FOOTER   ===========================*/
+
+footer {
+	text-align: center;
+	background-color: #fff;
+	margin-top: 113px;
+	padding-bottom: 30px;
+
+	p {
+		font-size: 14px;
+		line-height: 26px;
+		margin-right: -100px;
+	}
+}

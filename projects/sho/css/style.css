@@ -1,0 +1,224 @@
+body {
+  font-family: "RobotoRegular", Helvetica, sans-serif;
+  font-size: 15px; }
+
+h1 {
+  font-size: 44px;
+  padding: 0;
+  margin: 0; }
+
+h2 {
+  font-size: 34px;
+  font-weight: lighter;
+  padding: 0;
+  margin: 0; }
+
+h3 {
+  font-size: 16px;
+  color: #888;
+  font-weight: lighter;
+  padding: 0;
+  margin: 0; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+.head {
+  text-align: center; }
+
+/*==================================================
+============   HEADER   ===========================*/
+header {
+  width: 100%;
+  background-color: #fff; }
+  header nav {
+    text-align: center; }
+  header li {
+    display: inline;
+    margin: 20px; }
+    header li a {
+      font-family: "RobotoRegular";
+      color: #000;
+      font-size: 13px; }
+    header li a:hover {
+      color: #777; }
+    header li a.logo {
+      font-size: 30px;
+      background-color: #000;
+      color: #fff;
+      padding: 7px;
+      border: 2px solid #000; }
+    header li a.logo:hover {
+      background-color: #fff;
+      color: #000; }
+  header .banner {
+    text-align: center;
+    margin-top: 295px; }
+    header .banner h3 {
+      width: 371px; }
+    header .banner .top-button {
+      background-color: #fff;
+      padding: 18px 21px;
+      text-transform: uppercase;
+      border: 1px solid #000;
+      font-size: 12px;
+      margin-top: 15px; }
+    header .banner .top-button:hover {
+      background-color: #000;
+      color: #fff; }
+  header .circle {
+    margin: 281px 0px 86px 0;
+    text-align: center; }
+    header .circle ul {
+      margin: 0px; }
+      header .circle ul li {
+        display: block;
+        color: #d0d0d0;
+        margin: 0; }
+      header .circle ul li:nth-child(1) {
+        opacity: .33; }
+      header .circle ul li:nth-child(2) {
+        opacity: .66; }
+      header .circle ul li:nth-child(3) {
+        opacity: 1; }
+
+/*==================================================
+============   SECTION 1   ========================*/
+.about {
+  background-image: url(../images/bg-about.png);
+  background-position: center;
+  height: 1341px; }
+  .about h2 {
+    font-size: 48px;
+    color: #fff; }
+  .about p {
+    color: #b7b7b7; }
+  .about .aug {
+    margin-top: 140px; }
+  .about .feb {
+    margin-top: 185px; }
+  .about .aug, .about .feb {
+    text-align: right; }
+    .about .aug h2, .about .feb h2 {
+      margin-right: -42px; }
+    .about .aug p, .about .feb p {
+      text-align: left;
+      font-size: 15px;
+      line-height: 22px; }
+  .about .oct {
+    margin-top: 258px; }
+  .about .mar {
+    margin-top: 348px; }
+  .about .oct, .about .mar {
+    text-align: left; }
+    .about .oct h2, .about .mar h2 {
+      margin-left: -39px; }
+    .about .oct p, .about .mar p {
+      text-align: right;
+      font-size: 15px;
+      line-height: 22px; }
+
+/*==================================================
+============   SECTION 2   ========================*/
+.command {
+  background-color: #fff; }
+  .command .head {
+    margin-top: 71px; }
+  .command .dev, .command .des, .command .mark {
+    text-align: center; }
+    .command .dev h4, .command .des h4, .command .mark h4 {
+      font-size: 24px;
+      padding-top: 18px;
+      margin: 0; }
+    .command .dev p, .command .des p, .command .mark p {
+      font-size: 13px;
+      padding-bottom: 10px;
+      margin: 0;
+      color: #cecece; }
+    .command .dev li, .command .des li, .command .mark li {
+      display: inline;
+      margin: 10px; }
+      .command .dev li a, .command .des li a, .command .mark li a {
+        color: #e4e4e4;
+        font-size: 20px; }
+      .command .dev li a:hover, .command .des li a:hover, .command .mark li a:hover {
+        color: #000; }
+  .command .des {
+    margin-top: 122px; }
+  .command .dev, .command .mark {
+    margin-top: 214px; }
+
+/*==================================================
+============   SECTION 3   ========================*/
+.work {
+  background-image: url(../images/bg-work.png);
+  background-position: center;
+  height: 1665px;
+  margin-top: 93px; }
+  .work .head {
+    margin-top: 232px;
+    padding-bottom: 216px; }
+    .work .head h2 {
+      color: #fff; }
+  .work .chart, .work .heart, .work .real {
+    text-align: center; }
+    .work .chart h4, .work .heart h4, .work .real h4 {
+      font-size: 24px;
+      padding-top: 36px;
+      margin: 0;
+      color: #fff; }
+    .work .chart p, .work .heart p, .work .real p {
+      font-size: 18px; }
+  .work .button {
+    text-align: center;
+    margin-top: 383px; }
+    .work .button .button-bot {
+      background-color: #fff;
+      padding: 21px 41px;
+      border: 1px solid #000; }
+    .work .button .button-bot:hover {
+      background-color: #777; }
+
+/*==================================================
+============   SECTION 4   ========================*/
+.contact {
+  background-color: #fff; }
+  .contact .head {
+    margin-top: 83px; }
+  .contact .call, .contact .target, .contact .envelop {
+    text-align: center;
+    margin-top: 58px; }
+    .contact .call .fa-phone, .contact .call .fa-map-marker, .contact .call .fa-envelope, .contact .target .fa-phone, .contact .target .fa-map-marker, .contact .target .fa-envelope, .contact .envelop .fa-phone, .contact .envelop .fa-map-marker, .contact .envelop .fa-envelope {
+      font-size: 21px; }
+    .contact .call p, .contact .target p, .contact .envelop p {
+      font-size: 10px; }
+  .contact form {
+    margin-top: 111px; }
+    .contact form input {
+      text-align: center;
+      padding: 14px;
+      width: 100%;
+      margin-bottom: 20px; }
+    .contact form textarea {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 14px;
+      padding: 12px; }
+    .contact form input.sub-button {
+      background-color: #000;
+      color: #fff; }
+
+/*==================================================
+============   FOOTER   ===========================*/
+footer {
+  text-align: center;
+  background-color: #fff;
+  margin-top: 113px;
+  padding-bottom: 30px; }
+  footer p {
+    font-size: 14px;
+    line-height: 26px;
+    margin-right: -100px; }
+
+/*# sourceMappingURL=style.css.map */

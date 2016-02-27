@@ -1,0 +1,35 @@
+@import "../bourbon/bourbon"
+
+$color: #FF6347 //Theme skin
+$text_color: #888
+$main_color: #222
+$bg_light: #FAFAFA
+
+@mixin kerning($kerning)
+	letter-spacing: $kerning + px
+
+body
+	color: $main_color
+	+kerning(1)
+
+a
+	color: $color
+
+.sub-button
+	background-color: $color
+
+p,
+footer,
+	color: $text_color
+.left-resume,
+.right-resume
+	h4
+		color: $color
+
+section
+	h2
+		+kerning(3)
+	h3
+		+kerning(.5)
+	p
+		+kerning(2)

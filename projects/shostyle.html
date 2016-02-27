@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>&#60;HTML/&#62; Markup</title>
+	<meta name="description" content="">
+	<meta http-equiv="" content="text/html; charset=utf-8">
+	<link rel="shortcut icon" href="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../libs/bootstrap.min.css">
+	<link rel="stylesheet" href="../libs/font-awesome-4.2.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/media.css">
+</head>
+<body>
+<div class="container-fluid"><!-- WRAPPER -->
+
+	<header class="row">
+		<div class="col-md-3 head-left"></div>
+		<div class="col-md-6 col-md-offset-3 head-center">
+			<h3>Contacts:</h3>
+		<ul class="cont-top1 col-md-6 col-xs-6">
+			<li><p class="mob-top"><i class="fa fa-mobile"></i>&#160;&#160;&#160;&#160;+380 (63) 973-23-16</p></li>
+			<li><p class="sk-top"><i class="fa fa-skype"></i>&#160;&#160;&#160;nutryda_</p></li>
+		</ul>
+		<ul class="cont-top2 col-md-6 col-xs-6">
+			<li><p class="mar-top"><i class="fa fa-map-marker"></i>&#160;&#160;&#160;&#160;Харьков, м. Холодная гора</p></li>
+			<li><p class="mail-top"><i class="fa fa-envelope"></i>&#160;&#160;anynamee3@gmail.com</p></li>
+		</ul>
+		</div>
+		<div class="col-md-3 col-md-offset-9 head-right"></div>
+	</header>
+
+	<div class="row"><!-- MAIN -->
+
+		<div class="col-xs-12 col-md-3 left-side"><!-- LEFT SIDE -->
+			<h1>&#60;/&#62; <span>Markup</span></h1>
+
+			<ul class="menu-right"><!-- MENU FOR SMALL DEVICES -->
+				<li><a href="../index.html">Back</a></li>
+			</ul><!-- END OF MENU FOR SMALL DEVICES -->
+
+		</div><!-- END OF LEFT SIDE -->
+
+		<div class="col-xs-12 col-md-6 col-md-offset-3 center"><!-- CENTER -->
+			
+			<p class="code">
+				<textarea name="code" id="code" cols="30" rows="10">
+					/*=================RESET=================*/
+
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	border: 0;
+	list-style: none;
+	/*Reset block model*/
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*=================PAGE=================*/
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	max-width: 1920px;
+	margin: 0 auto;
+}
+.row {
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
+p {
+	color: #898888;
+}
+
+/*=================HEADER=================*/
+
+header {
+	background-color: #fff;
+	height: 945px;
+}
+
+.banner {
+	margin-left: 26%;
+}
+
+.nav-top {
+	width: 100%;
+}
+
+.nav-top li {
+	padding: 15px 25px 0 0;
+}
+
+.nav-top a {
+	text-decoration: none;
+	color: #232323;
+	font-size: 10pt;
+}
+
+.banner h1 {
+	padding-top: 265px;
+	text-align: center;
+}
+
+.banner p {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.banner a {
+	padding: 20px;
+	border: 1px solid #000;
+	font-size: 10pt;
+	color: #232323;
+	margin-left: 31%;
+	text-decoration: none;
+}
+
+/*=================section1=================*/
+
+.section1 {
+	background-color: #000;
+	width: 100%;
+	height: 1300px;
+}
+
+.section1 h2 {
+	color: #fff;
+	font-size: 34pt;
+    margin: 18px 0 7px 0;
+}
+
+.section1 p {
+	text-align: left;
+}
+
+.overlay{
+	position: absolute;
+	background-image: url(img/white-h.png);
+	background-position: bottom;
+	background-repeat: repeat-x;
+	width: 100%;
+	height: 100%;
+}
+
+.top{
+	position: relative;
+	background-image: url(img/bg-back.png);
+	background-repeat: repeat-x;
+	background-position: bottom center;
+	height: 1300px;
+} 
+
+.aug {
+	padding-top: 90px;
+	margin-left: 10.4%;
+}
+
+.aug h2, .feb h2 {
+	text-align: right;
+}
+
+.feb {
+	margin-top: 116px;
+	margin-left: 10.4%;
+}
+
+.oct {
+	margin-top: -29px; 
+	margin-left: 55.4%
+}
+
+.mar {
+	padding-top: 68px;
+	margin-left: 55.4%
+}
+
+/*=================section2=================*/
+
+.section2 {
+	height: 716px;
+}
+
+.section2 h2 {
+	padding-top: 59px;
+	font-size: 32px;
+}
+
+.section2 h2, h3, p {
+	text-align: center;
+}
+
+.dev {
+	padding-top: 199px;
+	width: 170px;
+	margin-left: 6.3%;
+}
+
+.mark {
+	padding-top: 107px;
+	margin-left: 19.8%;
+	width: 170px;
+	background-color: #fff;
+}
+
+.des {
+	padding-top: 199px;
+	margin-left: 20.8%;
+	width: 170px;
+}
+
+/*=================section3=================*/
+
+.section3 {
+	background-image: url(img/bg-2.png);
+	background-position: center;
+	height: 1676px;
+	width: 100%;
+}
+
+.section3 h2 {
+	padding-top: 230px;
+	text-align: center;
+	color: #fff;
+}
+
+.section3 h3 {
+	color: #fff;
+	padding-bottom: 25px;
+}
+
+.section3 img {
+	padding: 197px 0 20px 100px;
+	padding-left: 100px;
+}
+
+.section3 a {
+	display: inline-block;
+	width: 220;
+	padding: 20px 45px 20px 45px;
+	border: 1px solid #000;
+	font-size: 10pt;
+	color: #232323;
+	margin-top: 449px;
+	margin-left: 41%;
+	text-decoration: none;
+	background-color: #fff;
+}
+
+/*=================section4=================*/
+
+.section4 {
+	height: 1105px;
+}
+
+.section4 h2 {
+	padding-top: 65px;
+}
+
+.section4 h2, p {
+	text-align: center;
+}
+
+.section4 img {
+	padding: 47px 0 20px 170px;
+}
+
+/*=================FORM=================*/
+
+form {
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 103px 10px 10px 10px;
+	text-align: center;
+}
+
+.textbox {
+	height: 55px;
+	width: 100%;
+	padding: 12px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+}
+
+.message {
+	height: 195px;
+	width: 100%;
+	border: 1px solid #ccc;
+	display: inline;
+	margin-bottom: 30px;
+}
+
+.button {
+	height: 50px;
+	width: 100%;
+	cursor: pointer;
+	padding: 10px;
+	background-color: #000;
+	color: #fff;
+}
+
+.footer {
+	padding: 160px 0 30px 0;
+}
+				</textarea>
+			</p>
+
+		</div><!-- END OF CENTER -->
+
+		<div class="col-xs-12 col-md-3 right-side"><!-- RIGHT SIDE -->
+			<ul class="menu2">
+				<li><a href="../index.html">Back</a></li>
+			</ul>
+		</div><!-- END OF RIGHT SIDE -->
+
+		<footer class="col-md-12">
+			<p>Copyright&#160;&#169;&#160;2015</p>
+		</footer>
+
+	</div><!-- END OF MAIN -->
+
+</div><!-- END OF WRAPPER -->
+
+	<script src="../libs/jquery-2.1.1.min.js"></script>
+	<script src="../js/common.js"></script>
+	<!--[if lt IE 9]>
+	<script src="../libs/html5shiv/es5-shim.min.js"></script>
+	<script src="../libs/html5shiv/html5shiv.min.js"></script>
+	<script src="../libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="../libs/respond/respond.min.js"></script>
+	<![endif]-->
+
+</body>
+</html>

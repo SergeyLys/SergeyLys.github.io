@@ -1,0 +1,26 @@
+body {
+  color: #222;
+  letter-spacing: 1px; }
+
+a {
+  color: #FF6347; }
+
+.sub-button {
+  background-color: #FF6347; }
+
+p,
+footer {
+  color: #888; }
+
+.left-resume h4,
+.right-resume h4 {
+  color: #FF6347; }
+
+section h2 {
+  letter-spacing: 3px; }
+section h3 {
+  letter-spacing: 0.5px; }
+section p {
+  letter-spacing: 2px; }
+
+/*# sourceMappingURL=tomato.css.map */
